@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+Datasets/*
+Chapter*/.ipynb_checkpoints/*
+Chapter\ 02/nyc.html
