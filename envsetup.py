@@ -113,7 +113,9 @@ def sync_submodules():
 
     call(['chmod', '+x', phantomjs['binPath']])
 
-    call(['pip',  'install', 'selenium'])
+    os.chdir('~/anaconda3/bin')
+    call(['source', 'activate'])
+    call(['sudo', 'pip',  'install', 'selenium'])
     # Fetch submodules
     # global ROOT
     # os.chdir(ROOT)
